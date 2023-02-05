@@ -148,3 +148,12 @@ Started GET "/about.html.erb" for 127.0.0.1 at 2023-02-05 14:25:17 -0500
   
 ActionController::RoutingError (No route matches [GET] "/about.html.erb"):
   
+Started GET "/" for 127.0.0.1 at 2023-02-05 15:33:36 -0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 35484)
+Completed 200 OK in 69ms (Views: 59.2ms | ActiveRecord: 0.0ms | Allocations: 40919)
+
+
